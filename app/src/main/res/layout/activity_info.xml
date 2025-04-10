@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".InfoActivity">
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="@drawable/main_background"/>
+
+
+ <Button
+     android:layout_width="50dp"
+     android:layout_height="50dp"
+     android:id="@+id/returntomain"
+     android:background="@drawable/ic_arrow"
+     android:padding="14dp"></Button>
+
+
+
+
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:text="This app has three main functions.\n
+1. It allows you to calculate your BMI (Body Mass Index)\n
+2. It allows you to calculate your FFMI (Fat Free Mass Index)\n
+3. It allows you to calculate your bodyfat percentage with the help of Artificial Intelligence\n
+\n\n\n
+DISCLAIMER\n\n
+The BodyFat calculator is still in it's beta stage. It uses machine learning techniques with\n
+the help of image recognition algorithms. The results are not entirely accurate, since there is not\n
+enough training data yet. Τhe findings are a rough approximation, hence take them with a grain of salt.\n
+\n\n\n\n
+All copy rights reserved.\n
+Διονύσιος Πετρόπουλος ΑΜ:3112\n
+Κωνσταντίνος Πετρόπουλος ΑΜ:5714"
+     android:textColor="@color/black"
+     android:textSize="18sp"
+     android:layout_marginEnd="50dp"
+     android:layout_marginTop="20dp"
+     android:textStyle="bold"
+     android:textAlignment="center"></TextView>
+
+
+</RelativeLayout>
